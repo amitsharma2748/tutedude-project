@@ -30,6 +30,7 @@ const Navbar = () => {
                 height: "48px",
                 borderRadius: "10px",
                 backgroundColor: "#800080",
+                fontSize: "18px",
                 padding: "12px, 25px, 12px, 25px",
               }}
             >
