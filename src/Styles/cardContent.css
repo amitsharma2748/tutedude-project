@@ -213,6 +213,10 @@
   }
   .section-4-body {
     width: 85%;
-    height: 65px;
+    height: 75px;
+  }
+  .section-2-content .content-container-left {
+    margin-left: 0px;
+    margin: auto;
   }
 }

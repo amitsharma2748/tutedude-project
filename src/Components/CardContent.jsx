@@ -12,7 +12,15 @@ const CardContent = () => {
       <Grid container>
         <Grid item sm={12} md={6} width={"100%"}>
           <Grid container className="section-2">
-            <Grid item xs={6} sm={4} className="section-2-content">
+            <Grid
+              item
+              xs={6}
+              sm={4}
+              md={4}
+              lg={4}
+              xl={4}
+              className="section-2-content"
+            >
               <div className="content-container">
                 <div className="header">
                   <p>Referral Earning</p>
@@ -22,7 +30,15 @@ const CardContent = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item xs={6} sm={4} className="section-2-content">
+            <Grid
+              item
+              xs={6}
+              sm={4}
+              md={4}
+              lg={4}
+              xl={4}
+              className="section-2-content"
+            >
               <div className="content-container-left">
                 <div className="header">
                   <p> Total Referrals </p>
@@ -32,7 +48,15 @@ const CardContent = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item xs={6} sm={4} className="section-2-content">
+            <Grid
+              item
+              xs={6}
+              sm={4}
+              md={4}
+              lg={4}
+              xl={4}
+              className="section-2-content"
+            >
               <div className="content-container">
                 <div className="header">
                   <p>Wallet Balance</p>
@@ -77,7 +101,7 @@ const CardContent = () => {
             </div>
           </div>
         </Grid>
-        <Grid item md={9.5} width={"100%"}>
+        <Grid item md={12} xl={9} width={"100%"}>
           <div className="section-4">
             <Grid container>
               <Grid item sm={12} width={"100%"}>

@@ -38,8 +38,8 @@ const Navbar = () => {
             </Button>
           </div>
           <ul className="nav-list">
-            <li>My Assignment</li>
-            <li>Chat with Mentor</li>
+            <li className="li1">My Assignment</li>
+            <li className="li2">Chat with Mentor</li>
             <li className="dropdown">
               <Person2RoundedIcon />
               <div>ProfileName </div>

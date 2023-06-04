@@ -58,7 +58,10 @@
   .css-wxh798-MuiGrid-root {
     max-width: 81% !important;
   }
-
+  .li1,
+  .li2 {
+    color: rgba(128, 0, 128, 0.25);
+  }
   .navbar .button {
     display: none;
   }
