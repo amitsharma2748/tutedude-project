@@ -10,7 +10,7 @@ const CardContent = () => {
   return (
     <div className="content_container">
       <Grid container>
-        <Grid item sm={12} md={5} width={"100%"}>
+        <Grid item sm={12} md={6} width={"100%"}>
           <Grid container className="section-2">
             <Grid item xs={6} sm={4} className="section-2-content">
               <div className="content-container">
@@ -67,7 +67,7 @@ const CardContent = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item sm={12} md={7} width={"100%"}>
+        <Grid item sm={12} md={6} width={"100%"}>
           <div className="section-3">
             <div className="section-3-header">
               <p>Your Referral Code</p>
@@ -77,7 +77,7 @@ const CardContent = () => {
             </div>
           </div>
         </Grid>
-        <Grid item md={8} width={"100%"}>
+        <Grid item md={9.5} width={"100%"}>
           <div className="section-4">
             <Grid container>
               <Grid item sm={12} width={"100%"}>

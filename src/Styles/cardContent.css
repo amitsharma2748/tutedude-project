@@ -8,6 +8,7 @@
   height: 198px;
   box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
   margin: 30px 0;
+  border-radius: 20px;
 }
 .section-2-content {
   height: 50%;
@@ -206,8 +207,9 @@
     width: 75%;
   }
   .section-3 {
-    width: 70%;
+    width: 85%;
     margin: auto;
+    padding-left: 150px;
   }
   .section-4-body {
     width: 85%;
