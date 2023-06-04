@@ -1,0 +1,96 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 59px !important;
+  align-items: center;
+  margin: auto;
+}
+.navbar img {
+  width: 160px;
+  height: 45px;
+}
+
+.navbar .button {
+  display: flex;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.navbar .image {
+  display: flex;
+  align-items: center;
+}
+.section-1 {
+  text-align: left;
+
+  padding: 51px 0 21px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+.navbar .nav-list {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .css-1yeov77-MuiGrid-root {
+    max-width: 43% !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    max-width: 90%;
+    margin-top: 0 !important;
+    padding: 6px;
+  }
+  .navbar img {
+    height: 45px;
+    width: 180px;
+    padding-top: 8px;
+  }
+  .css-wxh798-MuiGrid-root {
+    max-width: 81% !important;
+  }
+
+  .navbar .button {
+    display: none;
+  }
+  .navbar .nav-list {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    list-style: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 123.5%;
+
+    text-align: center;
+
+    color: #800080;
+  }
+  .navbar .nav-list li {
+    padding: 0 14px;
+  }
+  .navbar .nav-list .dropdown {
+    display: flex;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .navbar .nav-list {
+    width: 588px;
+  }
+  .section-1 {
+    font-size: 18px;
+  }
+}
